@@ -14,6 +14,15 @@
   <url>http://maven.apache.org</url>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+          <wl.host>localhost</wl.host>
+      <wl.port>9001</wl.port>
+      <wl.targets>AdminServer</wl.targets>
+	  <wl.repository>POC_1</wl.repository>
+	  <wl.source></wl.source>
+      <wl.location>\target</wl.location>
+	  
+      <wl.user>weblogic</wl.user>
+      <wl.pass>weblogic123</wl.pass>
   </properties>
   <dependencies>
     <dependency>
@@ -24,7 +33,7 @@
     </dependency>
   </dependencies>
 	<build>
-  <finalName>MultipleEar</finalName>
+ 
   </build>
   <profiles>
         <profile>
@@ -81,15 +90,5 @@
         </profile>
     </profiles>
   
-  <properties>
-      <wl.host>localhost</wl.host>
-      <wl.port>9001</wl.port>
-      <wl.targets>AdminServer</wl.targets>
-	  <wl.repository>POC_1</wl.repository>
-	  <wl.source></wl.source>
-      <wl.location>\target</wl.location>
-	  <wl.location1>multiple_ear\Lasor\target</wl.location1>
-      <wl.user>weblogic</wl.user>
-      <wl.pass>weblogic123</wl.pass>
-  </properties>
+  
 </project>

@@ -24,7 +24,7 @@
     </dependency>
   </dependencies>
   
-  <profiles>
+<!--  <profiles>
         <profile>
             <id>deploy to weblogic</id>
             <activation>
@@ -60,9 +60,9 @@
                                     <!--<source>*/*.war</source>-->
 		<!--<source>C:/jenkins_installpath/workspace/Bank_appl1/target/BankExample.war    ./${wl.location}/${project.artifactId}</source>-->
 		<!--<source>./${wl.location}/child-1.0-SNAPSHOT.jar</source>-->
-		<source>./${wl.location}/${Project.artifactId}.jar</source>
+		<!-- <source>./${wl.location}/${Project.artifactId}.jar</source>-->
 		
-                                </configuration>
+                       <!--         </configuration>
                             </execution>
                         </executions>
                     </plugin>
@@ -89,5 +89,5 @@
 	  <wl.location1>multiple_ear\Lasor\target</wl.location1>
       <wl.user>weblogic</wl.user>
       <wl.pass>weblogic123</wl.pass>
-  </properties>
+  </properties>-->
 </project>

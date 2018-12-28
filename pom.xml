@@ -49,7 +49,7 @@
                                     <action>deploy</action>
                                     <!--<source>*/*.war</source>-->
 		<!--<source>C:/jenkins_installpath/workspace/Bank_appl1/target/BankExample.war    ./${wl.location}/${project.artifactId}</source>-->
-		<source>./${wl.location}/child-1.0-SNAPSHOT.jar</source>
+		<!--<source>./${wl.location}/child-1.0-SNAPSHOT.jar</source>-->
 		<source>./${wl.location}/Lasor-1.0-SNAPSHOT.jar</source>
 		
                                 </configuration>

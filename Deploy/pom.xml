@@ -22,7 +22,7 @@
       <wl.targets>AdminServer</wl.targets>
 	  <wl.repository>POC_1</wl.repository>
 	  <wl.source></wl.source>
-      <wl.location>target</wl.location>
+      <wl.location>\Deploy\target</wl.location>
 	  
       <wl.user>weblogic</wl.user>
       <wl.pass>weblogic123</wl.pass>

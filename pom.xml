@@ -9,6 +9,8 @@
   <modules>
     <module>Lasor</module>
     <module>child</module>
+	<module>Deploy</module>
+	<module>Mock</module>
   </modules>
   
 
